@@ -1,0 +1,23 @@
+---
+output:
+  pdf_document:
+    includes:
+      in_header: template/import.sty
+      before_body: template/title.sty
+---
+# Tehtävä 1: Esimerkki
+Tämä on yksinkertainen esimerkki RMarkdown tiedostosta.
+
+Tässä on R koodia
+
+```{r prompt=TRUE, collapse=TRUE, comment=''}
+x <- c(27,28,28,30,42,42,43,46,47,47,52)
+stem(x)
+```
+
+Ja tässä on esimerkkikuvaaja
+
+```{r prompt=TRUE, collapse=TRUE, comment=''}
+hist(sleep$extra)
+```
+
